@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12634FD214A2003B00FEC540 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12634FD114A2003B00FEC540 /* UIKit.framework */; };
+		12634FD414A2003B00FEC540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12634FD314A2003B00FEC540 /* Foundation.framework */; };
+		12634FD614A2003B00FEC540 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12634FD514A2003B00FEC540 /* CoreGraphics.framework */; };
+		12634FDC14A2003B00FEC540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12634FDA14A2003B00FEC540 /* InfoPlist.strings */; };
+		12634FDE14A2003B00FEC540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12634FDD14A2003B00FEC540 /* main.m */; };
+		12634FE214A2003B00FEC540 /* SKRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12634FE114A2003B00FEC540 /* SKRAppDelegate.m */; };
+		12634FE514A2003B00FEC540 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12634FE314A2003B00FEC540 /* MainStoryboard.storyboard */; };
+		12634FE814A2003B00FEC540 /* SKRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12634FE714A2003B00FEC540 /* SKRMasterViewController.m */; };
+		12634FEB14A2003B00FEC540 /* SKRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12634FEA14A2003B00FEC540 /* SKRDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12634FCD14A2003B00FEC540 /* DoNotBackupExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoNotBackupExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12634FD114A2003B00FEC540 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12634FD314A2003B00FEC540 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12634FD514A2003B00FEC540 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12634FD914A2003B00FEC540 /* DoNotBackupExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoNotBackupExample-Info.plist"; sourceTree = "<group>"; };
+		12634FDB14A2003B00FEC540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12634FDD14A2003B00FEC540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12634FDF14A2003B00FEC540 /* DoNotBackupExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoNotBackupExample-Prefix.pch"; sourceTree = "<group>"; };
+		12634FE014A2003B00FEC540 /* SKRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKRAppDelegate.h; sourceTree = "<group>"; };
+		12634FE114A2003B00FEC540 /* SKRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKRAppDelegate.m; sourceTree = "<group>"; };
+		12634FE414A2003B00FEC540 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		12634FE614A2003B00FEC540 /* SKRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKRMasterViewController.h; sourceTree = "<group>"; };
+		12634FE714A2003B00FEC540 /* SKRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKRMasterViewController.m; sourceTree = "<group>"; };
+		12634FE914A2003B00FEC540 /* SKRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKRDetailViewController.h; sourceTree = "<group>"; };
+		12634FEA14A2003B00FEC540 /* SKRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKRDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12634FCA14A2003B00FEC540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12634FD214A2003B00FEC540 /* UIKit.framework in Frameworks */,
+				12634FD414A2003B00FEC540 /* Foundation.framework in Frameworks */,
+				12634FD614A2003B00FEC540 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12634FC214A2003A00FEC540 = {
+			isa = PBXGroup;
+			children = (
+				12634FD714A2003B00FEC540 /* DoNotBackupExample */,
+				12634FD014A2003B00FEC540 /* Frameworks */,
+				12634FCE14A2003B00FEC540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12634FCE14A2003B00FEC540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12634FCD14A2003B00FEC540 /* DoNotBackupExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12634FD014A2003B00FEC540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12634FD114A2003B00FEC540 /* UIKit.framework */,
+				12634FD314A2003B00FEC540 /* Foundation.framework */,
+				12634FD514A2003B00FEC540 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12634FD714A2003B00FEC540 /* DoNotBackupExample */ = {
+			isa = PBXGroup;
+			children = (
+				12634FE014A2003B00FEC540 /* SKRAppDelegate.h */,
+				12634FE114A2003B00FEC540 /* SKRAppDelegate.m */,
+				12634FE314A2003B00FEC540 /* MainStoryboard.storyboard */,
+				12634FE614A2003B00FEC540 /* SKRMasterViewController.h */,
+				12634FE714A2003B00FEC540 /* SKRMasterViewController.m */,
+				12634FE914A2003B00FEC540 /* SKRDetailViewController.h */,
+				12634FEA14A2003B00FEC540 /* SKRDetailViewController.m */,
+				12634FD814A2003B00FEC540 /* Supporting Files */,
+			);
+			path = DoNotBackupExample;
+			sourceTree = "<group>";
+		};
+		12634FD814A2003B00FEC540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12634FD914A2003B00FEC540 /* DoNotBackupExample-Info.plist */,
+				12634FDA14A2003B00FEC540 /* InfoPlist.strings */,
+				12634FDD14A2003B00FEC540 /* main.m */,
+				12634FDF14A2003B00FEC540 /* DoNotBackupExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12634FCC14A2003B00FEC540 /* DoNotBackupExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12634FEE14A2003B00FEC540 /* Build configuration list for PBXNativeTarget "DoNotBackupExample" */;
+			buildPhases = (
+				12634FC914A2003B00FEC540 /* Sources */,
+				12634FCA14A2003B00FEC540 /* Frameworks */,
+				12634FCB14A2003B00FEC540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoNotBackupExample;
+			productName = DoNotBackupExample;
+			productReference = 12634FCD14A2003B00FEC540 /* DoNotBackupExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12634FC414A2003A00FEC540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mercury Syscom, Inc.";
+			};
+			buildConfigurationList = 12634FC714A2003A00FEC540 /* Build configuration list for PBXProject "DoNotBackupExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12634FC214A2003A00FEC540;
+			productRefGroup = 12634FCE14A2003B00FEC540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12634FCC14A2003B00FEC540 /* DoNotBackupExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12634FCB14A2003B00FEC540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12634FDC14A2003B00FEC540 /* InfoPlist.strings in Resources */,
+				12634FE514A2003B00FEC540 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12634FC914A2003B00FEC540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12634FDE14A2003B00FEC540 /* main.m in Sources */,
+				12634FE214A2003B00FEC540 /* SKRAppDelegate.m in Sources */,
+				12634FE814A2003B00FEC540 /* SKRMasterViewController.m in Sources */,
+				12634FEB14A2003B00FEC540 /* SKRDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12634FDA14A2003B00FEC540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12634FDB14A2003B00FEC540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12634FE314A2003B00FEC540 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12634FE414A2003B00FEC540 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12634FEC14A2003B00FEC540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12634FED14A2003B00FEC540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12634FEF14A2003B00FEC540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoNotBackupExample/DoNotBackupExample-Prefix.pch";
+				INFOPLIST_FILE = "DoNotBackupExample/DoNotBackupExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12634FF014A2003B00FEC540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoNotBackupExample/DoNotBackupExample-Prefix.pch";
+				INFOPLIST_FILE = "DoNotBackupExample/DoNotBackupExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12634FC714A2003A00FEC540 /* Build configuration list for PBXProject "DoNotBackupExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12634FEC14A2003B00FEC540 /* Debug */,
+				12634FED14A2003B00FEC540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12634FEE14A2003B00FEC540 /* Build configuration list for PBXNativeTarget "DoNotBackupExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12634FEF14A2003B00FEC540 /* Debug */,
+				12634FF014A2003B00FEC540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12634FC414A2003A00FEC540 /* Project object */;
+}
