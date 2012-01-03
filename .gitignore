@@ -1,0 +1,21 @@
+# .gitignore
+#*.xcodeproj/*
+#!*.xcodeproj/project.pbxproj
+
+#**/*.xcodeproj/*
+#!**/*.xcodeproj/project.pbxproj
+
+# Xcode Project
+#**/*.xcodeproj/*
+#!**/*.xcodeproj/project.pbxproj
+
+#!*.xcodeproj/default.*
+#!**/*.xcodeproj/default.*
+
+# Xcode Workspace
+#*.xcworkspace/*
+#!*.xcworkspace/contents.xcworkspacedata
+
+# OSX
+.DS_Store
+
