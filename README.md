@@ -26,6 +26,7 @@ Cacheを除くAPP_DIR/Libraryにファイルを保存すればバックアップ
 * Mac OSX 10.7.2 (Build 11C74)
 * Xcode 4.2 (Build 4D199)
 * 対象iOSのバージョン 5.0 & <strong>5.0.1</strong>以上
+* ARC ON
 <br /><br />
 
 ## 関連情報
