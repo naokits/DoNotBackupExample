@@ -40,7 +40,7 @@ Cacheを除くAPP_DIR/Libraryにファイルを保存すればバックアップ
 <br />
 
 ## サンプルアプリケーションの説明
-このサンプルプログラムでは、起動直後（アプリケーションデリゲートではありません）にファイルを保存するディレクトリを作成し、即座に「do not backup」属性をセットしています。その直後に、アップルの公式日本語ドキュメント（Blocks.pdf）をダウンロードし属性をセットしたディレクトリ内に保存しています。
+このサンプルプログラムでは、起動直後にファイルを保存するディレクトリを作成し、即座に「do not backup」属性をセットしています。その直後に、アップルの公式日本語ドキュメント（Blocks.pdf）をダウンロードし属性をセットしたディレクトリ内に保存しています。
 
 また明示的にBlocks.pdfにも属性をセットしています。
 
@@ -66,7 +66,7 @@ SKRMasterViewController.mファイルの130行付近の属性をセットして�
 │   ├── Preferences
 │   │   └── com.apple.PeoplePicker.plist
 │   └── Private\ Documents
-│       └── MyDocuments      <-- 「do not backup」属性をセット
+│       └── MyDocuments      <-- 「do not backup」属性をセットする
 │           └── Blocks.pdf
 └── tmp
 
@@ -88,7 +88,7 @@ SKRMasterViewController.mファイルの130行付近の属性をセットして�
 以降、このアプリケーションディレクトリを**APP_DIR**と示します。
 <br /><br /><br />
 
-**APP_DIR**に移動したら、次のように**xarre**コマンドを実行し結果を確認します。
+**APP_DIR**に移動したら、次のように**xattr**コマンドを実行し結果を確認します。
 <br /><br />
 
     % xattr -plxv com.apple.MobileBackup Library/
