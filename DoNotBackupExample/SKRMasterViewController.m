@@ -101,7 +101,7 @@
   if ([self makeDirForAppContents]) {
     // ディレクトリに対して「do not backup」属性をセット
     NSURL *dirUrl = [NSURL fileURLWithPath:basePath];
-    [self addSkipBackupAttributeToItemAtURL:dirUrl];
+    [self addSkipBackupAttributeToItemAtURL:dirUrl]; // <------------
   }
   
 
@@ -129,7 +129,7 @@
                              if ([self saveFileWithName:pdfName fileData:data]) {
                                NSString *downloadedPDFPath = [basePath stringByAppendingPathComponent:pdfName];
                                NSURL *fileUrl = [NSURL fileURLWithPath:downloadedPDFPath];
-                               [self addSkipBackupAttributeToItemAtURL:fileUrl];
+                               [self addSkipBackupAttributeToItemAtURL:fileUrl]; // <------------
                              }
                            } else {
                              NSLog(@"Error: %@", [error localizedDescription]);
