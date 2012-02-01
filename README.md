@@ -38,7 +38,7 @@ iOS5.1にはバックアップの対象としないファイルやディレク�
 
 * Mac OSX 10.7.2 (Build 11C74)
 * Xcode 4.2 (Build 4D199)
-* 対象iOSのバージョン 5.0 & <strong>5.0.1</strong>以上
+* 対象iOSのバージョン <strong>5.0.2</strong>のみ
 * ARC ON
 <br /><br />
 
@@ -106,7 +106,7 @@ SKRMasterViewController.mファイルの130行付近の属性をセットして�
 
 サンプルプログラムでは、APP_DIR/Library/Private Documents/MyDocumentsディレクトリと、そのディレクトリに保存したファイルにのみ「do not backup」属性をセットしていますので、上のように属性名であるcom.apple.MobileBackupがないと表示されます。
 <br /><br />
- 
+
     % xattr -plxv com.apple.MobileBackup Library/Private\ Documents/
     Library/Private Documents/: com.apple.MobileBackup:
     xattr: Library/Private Documents/: No such xattr: com.apple.MobileBackup
@@ -122,7 +122,7 @@ Private Documentsディレクトリには属性をセットしていませんの
 サンプルプログラムでは、このMyDocumentsディレクトリに対して明示的に「do not backup」属性をセットしています。よって、正常に属性がセットされていれば上記のような表示になります。
 <br /><br />
 
-    % xattr -plxv com.apple.MobileBackup Library/Private\ Documents/MyDocuments/Blocks.pdf 
+    % xattr -plxv com.apple.MobileBackup Library/Private\ Documents/MyDocuments/Blocks.pdf
     Library/Private Documents/MyDocuments/Blocks.pdf: com.apple.MobileBackup:
     00000000  01                                               |.|
     00000001
@@ -165,12 +165,12 @@ Blocks.pdfに対して明示的に属性をセットしなくても、MyDocument
     /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/AppleMobileDeviceHelper.app/Contents/Resources/AppleMobileBackup --list
 
 このコマンドを実行すると、バックアップされているデバイスの一覧が表示されます。表示形式はデバイス名 (UDID）
-    
+
     1. NKiPad (12b2d88e14e89ac5480ce0acab74e91a53ebe33e)
     2. NKiPodTouch (8ebb0c41aa582831c5705aac6689ad32257e3ea4)
     3. NKiPhone3GS01 (b3b908b748fe7be68d10cad7cd6f0a2ef0b9ac95)
-    
-    Please select a backup (1-3): 
+
+    Please select a backup (1-3):
 
 
 
